@@ -3,7 +3,7 @@
     "description": "MU-Plugin Acti — endpoint /whatsup exposant les infos site (WP, PHP, plugins)",
     "type": "wordpress-muplugin",
     "license": "proprietary",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
         {
             "name": "Acti",
