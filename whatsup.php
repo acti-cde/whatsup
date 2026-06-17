@@ -1,4 +1,9 @@
 <?php
+/*
+Plugin Name: WhatsUp MU
+Description: Expose minimal site info (WP, PHP, plugins) at /whatsup?token=TOKEN
+Version: 1.0.0
+*/
 /**
  * WhatsUp MU - expose minimal site info at /whatsup?token=TOKEN
  *
