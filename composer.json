@@ -1,0 +1,18 @@
+{
+    "name": "acti/mu-whatsup",
+    "description": "MU-Plugin Acti — endpoint /whatsup exposant les infos site (WP, PHP, plugins)",
+    "type": "wordpress-muplugin",
+    "license": "proprietary",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Acti",
+            "email": "technique@acti.fr",
+            "homepage": "https://acti.fr"
+        }
+    ],
+    "require": {
+        "composer/installers": "^2"
+    }
+}
+
