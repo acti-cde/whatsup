@@ -27,8 +27,8 @@ Version: 1.1.0
  * Output (JSON):
  * {
  *   "timestamp": "2026-03-20T12:34:56Z",
- *   "whatsup": {"version": "1.1.0"},
- *   "wordpress": {"version": "6.x"},
+ *   "whatsup": {"version": "2.0.0"},
+ *   "wordpress": {"version": "7.x"},
  *   "php": {"version": "8.x"},
  *   "plugins": [ {"file":"akismet/akismet.php","name":"Akismet","version":"4.1","update":"4.2","status":"active"}, ... ]
  * }
@@ -38,7 +38,7 @@ if ( ! defined( 'ABSPATH' ) ) {
     return;
 }
 
-define( 'WHATSUP_MU_VERSION', '1.1.0' );
+define( 'WHATSUP_MU_VERSION', '2.0.0' );
 define( 'WHATSUP_MU_SOURCE_URL', 'https://raw.githubusercontent.com/acti-cde/whatsup/main/whatsup.php' );
 
 add_action( 'parse_request', 'whatsup_mu_handle_request', 0 );
