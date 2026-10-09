@@ -62,7 +62,7 @@ function whatsup_mu_client_ip() {
 }
 
 function whatsup_mu_ip_allowed() {
-	$allowed = whatsup_mu_ip_list( 'WHATSUP_MU_ALLOWED_IPS', '89.227.241.142, 78.201.112.201, 31.193.54.209' );
+	$allowed = whatsup_mu_ip_list( 'WHATSUP_MU_ALLOWED_IPS', '89.227.241.142, 78.201.112.201, 31.193.54.209, 10.128.19.164, 10.128.19.166, 31.193.54.119, 31.193.54.122' );
 
 	return in_array( whatsup_mu_client_ip(), $allowed, true );
 }
